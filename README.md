@@ -1,0 +1,1 @@
+The website I created is a simple blog site in HTML with a free Azure domain hosted on Azure. It is secured with an SSL certificate, WAF protection, and an Azure Frontdoor. In Azure, I created multiple VMs along with this app service, and resource groups, network security groups, load balancers, a key vault, and a virtual network. 
