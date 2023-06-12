@@ -48,7 +48,7 @@ header a {
   margin-left: 650px;
 }
 
-.button:hover{
+.button{
   background-color: #031119;
   font-family: Gopher;
   color: white;
