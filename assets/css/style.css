@@ -6,12 +6,12 @@
 
 body {
   font-family: Helvetica;
-  color: #FFA500
+  color: #082D49
 }
 
 a{
   text-decoration: none;
-  color: #FFA500
+  color: #082D49
 }
 
 
@@ -25,7 +25,7 @@ header h1 {
   font-family: Gopher;
   font-weight: bold;
   font-size: 36px;
-  color: #FFA500;
+  color: #082D49;
   margin: 0;
   display: inline;
 }
@@ -95,14 +95,14 @@ header a {
 
 
 .intro {
-  color: #ffffff;
+  color: #ADD8E6;
   text-align: left;
 
 }
 
 .intro p {
   line-height: 1.7;
-  color: #ffffff;
+  color: #ADD8E6;
   width: 80%;
   font-weight: lighter;
   font-size: 20px;
