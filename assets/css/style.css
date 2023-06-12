@@ -5,13 +5,13 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: Helvetica;
   color: #082D49
 }
 
 a{
   text-decoration: none;
-  color: #FFA500
+  color: #082D49
 }
 
 
@@ -34,7 +34,7 @@ header a {
   color: #082D49;
 }
 
-.button:hover{
+.button{
   background-color: #082D49;
   font-family: Gopher;
   color: white;
@@ -48,7 +48,7 @@ header a {
   margin-left: 650px;
 }
 
-.button{
+.button:hover{
   background-color: #031119;
   font-family: Gopher;
   color: white;
