@@ -34,10 +34,10 @@ header a {
   color: #082D49;
 }
 
-.button{
+.button:hover{
   background-color: #082D49;
   font-family: Gopher;
-  color: orange;
+  color: white;
   padding: 15px 15px;
   text-align: center;
   text-decoration: none;
