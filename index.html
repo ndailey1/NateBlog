@@ -1,75 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <title>My Blog</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Blog - Home</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- navigation -->
-    <header>
-        <h1>
-            <a href="/">
-                NATE DAILEY'S CYBER BLOG
-            </a>
-    <header>
+  <header>
+    <div class="title">
+        <h1>Nate's Cyber Security Blog</h1>
+    </div>
+    <div class="nav">
+        <button class="button" onclick="window.location.href = 'index.html'";>
+            <h2>Home</h2>
+        </button>
+        <button class="button" onclick="window.location.href = 'about.html'";>
+            <h2>About</h2>
+        </button>
+        <button class="button" onclick="window.location.href = 'contact.html'";>
+            <h2>Contact</h2>
+        </button>
+    </div>
+  </header>
 
+  <section>
+    <div class="banner">
+        <img src="./assets/images/Background.jpg"/>
+    </div>
+    <h1>My Latest Blog Posts:</h1>
+    <div class="post">
+        <!-- YOUR BLOG POST NAME GOES BELOW-->
+        <h2>A Good Day of Work is Better Than a Bad Day of Phishing</h2> 
+        <div class="post-content">
+            <!-- YOUR BLOG POST IMAGE GOES BELOW-->
+            <img src="./assets/images/Image1.jpg"/>
+            <p>
+                Phishing attacks continue to be one of the most prevalent and dangerous cyber threats today. In a phishing attack, cybercriminals disguise themselves as trustworthy entities, such as banks or popular websites, to deceive individuals into sharing sensitive information like passwords, credit card numbers, or social security numbers. These attacks often come in the form of deceptive emails, messages, or websites that appear legitimate. It's crucial to be vigilant and cautious, scrutinizing every communication and link, and never sharing personal information unless you're certain about the authenticity of the request. By staying informed, practicing good cyber hygiene, and educating others, we can minimize the success of phishing attacks and protect ourselves from falling victim to these malicious schemes.
+            </p>
+        </div>
+    </div>
+    <div class="post">
+        <!-- YOUR BLOG POST NAME GOES BELOW-->
+        <h2>Are humans really the weakest link in security?</h2>
+        <div class="post-content">
+            <!-- YOUR BLOG POST IMAGE GOES BELOW-->
+            <img src="./assets/images/Image2.jpg"/>
+            <p>
+                When it comes to cybersecurity, people can often be the weakest link in the chain. No matter how advanced our technology or robust our defenses, human error and lack of awareness can create vulnerabilities that cybercriminals exploit. From falling for phishing emails to using weak passwords or sharing sensitive information unknowingly, our actions can inadvertently provide access to hackers. That's why it's crucial to prioritize cybersecurity education and create a culture of security within organizations and communities. By empowering individuals with knowledge, teaching them to recognize common threats, and promoting responsible online behavior, we can significantly reduce the risk posed by human vulnerabilities and build a stronger line of defense against cyberattacks. Remember, we are all responsible for safeguarding our digital world.
+            </p>
+        </div>
+    </div>
 
-    <!-- "About" section -->
-    <section id="about" class="intro">
-        <!--Replace with your own image-->
-       <img src="https://drive.google.com/uc?export=view&id=1_a4Ke-j0u5H9DMgup2488dS8prLkhW0y"
-            alt="Nate Dailey picture" height=375px;>
-        <h2 class="section-title">Hi, I'm Nate!</h2>
-        <p>
-            This is a little introductory paragraph about Nate Dailey, an aspiring technical recruiter looking to tap into the cybersecurity industry!
-            <br><br>
-           
-        </p>
-    </section>
+    <!--
+        COPY THIS CODE AND PASTE IT RIGHT ABOVE THIS COMMENT TO ADD MORE BLOG POSTS
+    <div class="post">
+        <h2>Post Name</h2>
+        <div class="post-content">
+            <img src="./assets/images/Image2.jpg"/>
+            <p>
+                YOUR BLOG POST CONTENT GOES HERE
+            </p>
+        </div>
+    </div>
+    -->
+  </section>
 
-
-    <!-- "Blog Posts" section -->
-    <section id="blog-post-collection" class="blog-posts">
-        <h2 class="section-title">Blog Posts</h2>
-        <article class="blog-post">
-            <img src="https://drive.google.com/uc?export=view&id=1ueyXZqXdMHEawBDTGLVD5-Kdp1t5DUZy&rl" alt="Image 1">
-
-            <div class="blog">
-                <h3>A Good Day of Work is Better than a Bad Day of Phishing</h3>
-                <h4>Phishing</h4>
-                <p>Phishing attacks continue to be one of the most prevalent and dangerous cyber threats today. In a phishing attack, cybercriminals disguise themselves as trustworthy entities, such as banks or popular websites, to deceive individuals into sharing sensitive information like passwords, credit card numbers, or social security numbers. These attacks often come in the form of deceptive emails, messages, or websites that appear legitimate. It's crucial to be vigilant and cautious, scrutinizing every communication and link, and never sharing personal information unless you're certain about the authenticity of the request. By staying informed, practicing good cyber hygiene, and educating others, we can minimize the success of phishing attacks and protect ourselves from falling victim to these malicious schemes.
-                </p>
-            </div>
-        </article>
-
-
-        <!-- second blog post -->
-        <article class="blog-post">
-            <img src="https://drive.google.com/uc?export=view&id=1PJrGBg8LgxHAzwhfM6drWR5fdfNQkRE4" alt="Image-2">
-            <div class="blog">
-                <h3>Are humans really the weakest link in security?</h3>
-                <h4>Humans</h4>
-                <p>
-                    When it comes to cybersecurity, people can often be the weakest link in the chain. No matter how advanced our technology or robust our defenses, human error and lack of awareness can create vulnerabilities that cybercriminals exploit. From falling for phishing emails to using weak passwords or sharing sensitive information unknowingly, our actions can inadvertently provide access to hackers. That's why it's crucial to prioritize cybersecurity education and create a culture of security within organizations and communities. By empowering individuals with knowledge, teaching them to recognize common threats, and promoting responsible online behavior, we can significantly reduce the risk posed by human vulnerabilities and build a stronger line of defense against cyberattacks. Remember, we are all responsible for safeguarding our digital world.
-                </p>
-            </div>
-        </article>
-    </section>
-        </footer>
-         </h1>
-        <a href="mailto:ndailey@incendia.com" class="button">Send Email</a>
-        <a href="https://www.linkedin.com/in/nate-dailey1/" target=”_blank” class="linkedin"><img
-                src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh" alt="LinkedIn logo"
-                height="45px"></a>
-        <a href="https://github.com/ndailey1" target=”_blank” class="github"><img
-                src="https://drive.google.com/uc?export=view&id=1eonijTX5LfjDEkXq-vp8_PLZ_uHCW_9i" alt="GitHub"
-                height="42px"></a>
-        </footer>
-    </section>
-    
+  <footer>
+    <div class="footer-content">
+        <p>This site template was written by <a href="https://github.com/SenalKaranda">Senal Karanda</a> for students of his cybersecurity cohorts.</p>
+    </div>
+  </footer>
 </body>
-
 </html>
