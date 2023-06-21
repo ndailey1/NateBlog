@@ -194,7 +194,6 @@ section p {
 .headshot {
     width: 75%;
     max-width: 500px;
-    border-radius: 50%;
     aspect-ratio: 1/1;
 }
 
