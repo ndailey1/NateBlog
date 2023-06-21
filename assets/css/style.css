@@ -195,6 +195,7 @@ section p {
     width: 75%;
     max-width: 500px;
     border-radius: 50%;
+    aspect-ratio: 1/1;
 }
 
 .about-text {
@@ -219,5 +220,5 @@ section p {
 .contact-logo {
     width: 100%;
     max-width: 250px;
-    aspect-ratio: 1/1;
+    
 }
