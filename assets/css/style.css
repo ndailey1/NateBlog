@@ -3,7 +3,7 @@ body {
     background-color: #282828;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    font-style: Italic;
+    font-style: italic;
 
     margin: 0;
 
@@ -138,6 +138,7 @@ h1 {
 
 .post h2 {
     font-family: 'Staatliches', display;
+    font-style: italic;
     font-size: 2em;
     margin-left: 1%;
 }
